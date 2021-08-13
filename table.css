@@ -1,1 +1,75 @@
-table css
+.to-table {
+  overflow-y: hidden;
+}
+
+.to-table-searchContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin: 10px;
+}
+
+.to-table-searchBar {
+  margin-left: 10px;
+  margin-right: 10px;
+  border-radius: 5px;
+}
+
+.to-table-dropdownContainer {
+  display: flex;
+  flex-direction: column;
+  /* padding-bottom: 0px; */
+  /* padding: 10px; */
+  /* max-height: 310px; */
+  margin: 15px;
+  /* overflow-y: scroll; */
+}
+
+.to-table-drawer-dropdownTitles{
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.to-table-drawer-dropdownTitles:hover{
+  background-color: #f5f5f5;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+/* .to-table-dropdownContainer {
+  -ms-overflow-style: none;
+  scrollbar-width: none; 
+} */
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+/* .to-table-dropdownContainer::-webkit-scrollbar {
+  display: none;
+} */
+
+.to-table-tags {
+  height: 25px;
+  padding-right: 0px;
+  border-top-left-radius: 3px;
+  border-bottom-left-radius: 3px;
+  font-size: 14px;
+  background-color: #e8e8e8;
+  border-width: 0px;
+}
+
+.to-table-tags-close {
+  height: 24px;
+  padding: 0px;
+}
+
+.to-table-tags-close:hover {
+  background-color: #d8d8d8;
+}
+
+
+.to-table-hideColumn{
+  display: none;
+}
+
+.ant-table-cell-scrollbar{
+  display: none;
+}
